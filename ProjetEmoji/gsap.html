@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!--------- EMOJI FACTORY WITH GSAP------------->
+
+<!--------- STRUCTURE -----------
+Header + 3 sections
+-------------------------------->
+
+<head>
+    <link rel="stylesheet" type="text/css" href="gsap.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="GSAP animations for building an Emoji factory">
+    <meta name="author" content="Christine Nagad">
+    <title>EMOJI Factory</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="gsap.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="choice">
+            <h1>« Your Emoji factory » What's your feeling?</h1>
+            <button type="button" id="buttonHumor">Humor</button>
+            <button type="button" id="buttonInLove">In Love</button>
+            <button type="button" id="buttonSad">Sad</button>
+            <button type="button" id="buttonHappy">Happy</button>
+        </div>
+    </header>
+    <section class="funnels">
+        <div class="aThird">
+            <div class="horizontal">
+                <img src="sources/emoji_face.png" class="face faceDownHumor" alt="face">
+                <img src="sources/emoji_face.png" class="face faceDownLove" alt="face">
+                <img src="sources/emoji_face.png" class="face faceDownSad" alt="face">
+                <img src="sources/emoji_face.png" class="face faceDownHappy" alt="face">
+            </div>
+            <img src="sources/funnel.png" class="funnel" alt="funnel">
+        </div>
+        <div class="aThird">
+            <div class="horizontal">
+                <img src="sources/tongue_eyes.png" class="eyes eyesDownHumor" alt="tongue_eyes">
+                <img src="sources/in-love_eyes.png" class="eyes eyesDownLove" alt="in-love_eyes">
+                <img src="sources/sad_eyes.png" class="eyes eyesDownSad" alt="sad_eyes">
+                <img src="sources/happy_eyes.png" class="eyes eyesDownHappy" alt="happy_eyes">
+            </div>
+            <img src="sources/funnel.png" class="funnel" alt="funnel">
+        </div>
+        <div class="aThird">
+            <div class="horizontal">
+                <img src="sources/tongue_mouth.png" class="mouth mouthDownHumor" alt="tongue_mouth">
+                <img src="sources/in-love_mouth.png" class="mouth mouthDownLove" alt="in-love_mouth">
+                <img src="sources/sad_mouth.png" class="mouth mouthDownSad" alt="sad_mouth">
+                <img src="sources/happy_mouth.png" class="mouth mouthDownHappy" alt="happy_mouth">
+            </div>
+            <img src="sources/funnel.png" class="funnel" alt="funnel">
+        </div>
+    </section>
+    <section class="belts">
+            <img src="sources/conveyor_belt_line.png" class="belt1" alt="conveyor belt"> 
+            <img src="sources/conveyor_belt_line.png" class="belt2" alt="conveyor belt"> 
+            <img src="sources/conveyor_belt_line.png" class="belt3" alt="conveyor belt"> 
+        </section>
+    <section class="cranes">
+        <img src="sources/conveyor.png" class="conveyor" alt="conveyor">
+        <img src="sources/conveyor.png" class="conveyor" alt="conveyor">
+        <img src="sources/conveyor.png" class="conveyor" alt="conveyor">
+    </section>
+
+
+</body>

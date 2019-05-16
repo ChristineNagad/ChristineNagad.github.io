@@ -1,0 +1,573 @@
+/*- - - - - styles du fichier animation.html - Chr. Nagad - créé le 3 avril 2019 */
+
+
+/*- - - - - - - - - - - - - - - Les containers par ordre de lecture -  - - - - -*/
+body {
+    display: flex;
+    flex-direction: column;
+    width : 90%;
+    margin:auto;
+    background-image: url("background_purple.png"), url("background_green.png"), url("stars_big.png"),url("stars_little.png") ;
+    background-position: center bottom, left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    color:white;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding:0px;
+}
+#headerLeft {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+#headerRight {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+#all {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    background-image:url('background_snow.jpg');
+    background-size: cover;
+    border-radius: 1%;
+}
+#entete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+#enteteGauche {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+#enteteDroite {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding-right: 25px;
+}
+#enteteDroiteHaute {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#enteteDroiteBasse {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    width: 100%;
+    height:140px;
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    background-color: purple;
+}
+#carousel1{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 0px;
+    padding:0px;
+}
+#carousel1Image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 66%;
+    margin: 0px;
+    padding:0px;
+    background-image:url('transat.jpg');
+    background-size:cover;
+    background-position: center;
+    }
+#sac1{
+    width:30%;
+    height:auto;
+    padding:15%;
+}
+#carousel1Texte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+#carousel2{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 0px;
+    padding:0px;
+}
+#carousel2Image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 66%;
+    margin: 0px;
+    padding:0px;
+    background-image:url('transat.jpg');
+    background-size:cover;
+    background-position: center;
+}
+#megot1{
+    width:30%;
+    height:auto;
+    padding:15%;
+}
+#carousel2Texte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    background-color: purple;
+}
+#carousel3{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 0px;
+    padding:0px;
+}
+#carousel3Image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 66%;
+    margin: 0px;
+    padding:0px;
+    background-image:url('transat.jpg');
+    background-size:cover;
+    background-position: center;
+}
+#cotontige1{
+    width:30%;
+    height:auto;
+    padding:15%;
+}
+#carousel3Texte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    background-color: purple;
+}
+#carousel4{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 0px;
+    padding:0px;
+}
+#carousel4Image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 66%;
+    margin: 0px;
+    padding:0px;
+    background-image:url('transat.jpg');
+    background-size:cover;
+    background-position: center;
+}
+#bouteille1{
+    width:30%;
+    height:auto;
+    padding:15%;
+}
+#carousel4Texte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    background-color: purple;
+}
+#carousel5{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 0px;
+    padding:0px;
+}
+#carousel5Image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 66%;
+    margin: 0px;
+    padding:0px;
+    background-image:url('transat.jpg');
+    background-size:cover;
+    background-position: center;
+}
+#parasol1{
+    width:30%;
+    height:auto;
+    padding:15%;
+}
+#carousel5Texte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    background-color: purple;
+}
+#centre{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+#centreGauche{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px 20px 0px 20px;
+    padding:0px;
+}
+#texteHaut{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+#petitTexte{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+#petitTexte1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+    padding:0px;
+    font-size:80%;
+}
+#petitTexte2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+    padding:0px;
+    font-size:80%;
+}
+#petitTexte3{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+    padding:0px;
+    font-size:80%;
+}
+#texteBas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+#centreDroit{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0px 20px 0px 20px;
+    padding:0px;
+}
+#poids{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10%;
+    padding:0px;
+}
+#newsletter{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 10%;
+    padding: 10%;
+    background-color:#CCCCCC;
+}
+#prenom {
+    width: 80%;
+    margin: auto;
+}
+#email {
+    width: 80%;
+    margin: auto;
+}
+#bilan{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left:10%;
+    font-size:80%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    color:#CCCCCC;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    font-size: 10px;
+}
+#troisLogos{
+    display: flex;
+    flex-direction: row;
+    max-width:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#troisLogos img{
+    width: 33%;
+    height: 75%;
+}
+/*- - - - - - - - - - - - - - -  Les textes- - - - -*/
+body {
+    background-color: purple;
+
+}
+h1{
+    font-size: 300%;
+    margin:10px;
+    font-weight: normal;
+}
+h2 {
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size:100%;
+}
+h3 {
+    margin-bottom: 0px;
+    font-size:150%;
+}
+pre {
+    font-size:130%;
+}
+#carousel1Texte, #carousel2Texte, #carousel3Texte, #carousel4Texte,  #carousel5Texte {
+    font-size: 75%;
+    color:whitesmoke;
+}
+.signature {
+    display: flex;
+    flex-direction: row;
+    font-size:60%;
+}
+/*- - - - - - - - - - - - - - - - - - - - -le tableau - - - -*/
+table {
+    background-color: whitesmoke;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    float: left;
+}
+tr {
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+th {
+    text-align: left;
+    padding:10px;
+}
+/*- - - - - - - - - - - - - - - - - - - - -les boutons - - - -*/
+  .btnHigh {
+    display: flex ;
+    flex-direction: row ;
+    color:white;
+    background-color:purple;
+    border: none;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btnChiffre {
+    display: flex ;
+    flex-direction: row ;
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 3px 3px;
+    text-decoration: none;
+    font-size: 200%;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btnChiffres:hover {
+    background-color: #black;
+    color: white;
+  }
+  #submit {
+    width:80px;
+    border-radius: 40%;
+    margin: 5% 40% 5% 40%;
+  }
+.horloge{
+    background-image: url("clock.png");
+    background-repeat: no-repeat;
+    height:30%;
+    transform: translateY(100%);
+}
+/*- - - - - - - - - - - - - - - Les animations- - - - -*/
+#batman{  /* - - - - - - - - - - - - - -BATMAN - - - - */
+    transition: all .6s ease-in-out;
+}
+#batman:hover {
+    transform: rotate(360deg);
+}
+/* - - - - - - - - - - - - - - - - FORMULAIRE - - - - */
+#prenom:focus {
+    background-color: #FFAAFF;
+}
+#email:focus {
+    background-color: #FFAAFF;
+}
+#submit:focus {
+    background-color: #FFAAFF;
+}
+.btnHigh:hover { /* - - - - - - - - - - - BUTTONS HIGH - - - */
+    border-radius:40%;
+    background-color: #886688;
+    opacity:15%;
+}
+div.nav a {
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+     }
+#sac1{  /* - - - - - - - - - - - - - -5 ELEMENTS CAROUSEL - - */
+        transition: all .2s ease-in-out;
+    }
+#sac1:hover {
+        transform: scale(1.25);
+    }
+#megot1{
+        transition: all .2s ease-in-out;
+    }
+#megot1:hover {
+        transform: scale(1.2) translateX(10%);
+    }
+#cotontige1{
+        transition: all .2s ease-in-out;
+    }
+#cotontige1:hover {
+        transform: translateX(15px);
+    }
+#bouteille1{
+        transition: all .2s ease-in-out;
+    }
+#bouteille1:hover {
+        transform: rotate(-15deg);
+    }
+#parasol1{
+        transition: all .4s ease-in-out;
+    }
+#parasol1:hover {
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+    }
+#sac2 {  /* - - - - - - - - - - IMAGES DU TABLEAU - - - - - */
+    background-image: url("plasticbag.png");
+    background-repeat: no-repeat;
+    background-size:15%;
+    background-position-x: 85%;
+    background-position-Y: 50%;
+}
+#megot2{
+    background-image: url("megot.png");
+    background-repeat: no-repeat;
+    background-size:15%;
+    background-position-x: 85%;
+    background-position-Y: 50%;
+}
+#cotontige2{
+    background-image: url("cotontige.png");
+    background-repeat: no-repeat;
+    background-size:15%;
+    background-position-x: 85%;
+    background-position-Y: 50%;
+}
+#bouteille2{
+    background-image: url("bottle.png");
+    background-repeat: no-repeat;
+    background-size:15%;
+    background-position-x: 85%;
+    background-position-Y: 50%;
+}
+#parasol2{
+    background-image: url("parasol.png");
+    background-repeat: no-repeat;
+    background-size:15%;
+    background-position-x: 85%;
+    background-position-Y: 50%;
+}
+
+#sac3:hover {  /* - - - - - - - - - - ANIMATIONS DES POIDS - - - - - */
+    opacity: 0.5;
+    background-color: #886688;
+    transform: scaleX(1.03) translateX(5px);
+    color:#EEEEEE;
+}
+#megot3:hover {
+    opacity: 0.5;
+    background-color: #886688;
+    transform: scaleX(1.03) translateX(5px);
+    color:#EEEEEE;
+}
+#cotontige3:hover {
+    opacity: 0.5;
+    background-color: #886688;
+    transform: scaleX(1.03) translateX(5px);
+    color:#EEEEEE;
+}
+#bouteille3:hover {
+    opacity: 0.5;
+    background-color: #886688;
+    transform: scaleX(1.03) translateX(5px);
+    color:#EEEEEE;
+}
+#parasol3:hover {
+    opacity: 0.5;
+    background-color: #886688;
+    transform: scaleX(1.03) translateX(5px);
+    color:#EEEEEE;
+}
+#troisLogos:hover {  /* - - - - - - - ANIMATIONS DES ICONES DU BAS - - - - - */
+    opacity: 0.25;
+}
+#troisLogos{
+    opacity: 0.5;
+    transition: all .2s ease-in-out;
+}

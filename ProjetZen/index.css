@@ -1,0 +1,267 @@
+/*-------- styles du fichier index.html - Chr. Nagad - créé le 1er avril 2019 */
+/*
+@font-face {
+    font-family: "Helvetica";
+    src:   url("/fonts/Helvetica.ttf") format("ttf"),
+           url("/fonts/Helvetica-BoldOblique.ttf") format("ttf"),
+           url("/fonts/helvetica-compressed-5871d14b6903a.otf") format("otf"),
+           url("/fonts/helvetica-light-587ebe5a59211.ttf") format("ttf"),
+           url("/fonts/Helvetica-Oblique.ttf") format("ttf"),
+           url("/fonts/helvetica-rounded-bold-5871d05ead8de.otf") format("otf");
+}
+/*------------------------------------------------ Les containers -------*/
+body {
+    display: flex;
+    flex-direction: row;
+    width : 1330px;
+    background-color:#A0A0A0;
+    color: #0A0A0A;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    width: 1280px;
+    height: 35px;
+    margin:0px 50px 0px 50px;
+    background-color:#A0A0A0;
+    color:#0A0A0A;
+}
+#aGauche {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+#aDroite {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.marge{
+    display: flex;
+    width: 50px;
+    background-color: #A0A0A0;
+}
+.centre{
+    display: flex;
+    flex-direction: column;
+    background-color:#A0A0A0;
+    font-family: "Times New Roman", Times, serif;
+}
+.photo {
+    margin:1px;
+}
+#photo1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 50px;
+    background-color:#A0A0A0;
+}
+#services {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right:47px;
+    background-color:whitesmoke;
+    text-align: center ;
+    justify-content: center;
+}
+#photos2 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 50px;
+    background-color:#A0A0A0;
+}
+#news {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right:47px;
+    background-color:whitesmoke;
+    text-align: center ;
+}
+#photos3 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 50px;
+    background-color:#A0A0A0;
+}
+#skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-right:47px;
+    background-color:whitesmoke;
+    text-align: center ;
+    justify-content: center;
+}
+#photos4 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 50px;
+    background-color:#A0A0A0;
+}
+#pinterest {
+    display: flex;
+    flex-direction: row;
+    margin:20px 47px 20px 50px;
+    background-color:whitesmoke;
+    text-align: center ;
+    justify-content: center;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right:47px;
+    background-color:whitesmoke;
+    text-align: left ;
+    justify-content: center;
+}
+#contactCenter {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding-bottom: 20px;
+    background-color:whitesmoke;
+    text-align: left ;
+    justify-content: center;
+}
+footer {
+    display: flex ;
+    flex-direction: row ;
+    justify-content: flex-end ;
+    text-align: center;
+    width: 1330px;
+    height: 35px;
+    margin: 0px;
+    padding: 5px;
+    font-size: 12px;
+    background-color:#A0A0A0;
+}
+.texteMultiple{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+}
+.texteEntete{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+.texteCentre{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.petitTexte{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+}
+#saisies {
+    margin-left: 0px;
+}
+address {
+    margin-left: 20px;
+}
+#YName {
+    width:375px;
+}
+#YEmail {
+    width:375px;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+/*-------------------------------------- Les textes------*/
+body {
+    font-family:"Helvetica";
+}
+h2 {
+    font-style: italic ;
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+h3 {
+    font-style: italic ;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#surIpression{
+    background-image:url('');width:200px;height:200px;
+}
+#pinterest {
+    font-size : 170%;
+    font-style: italic ;
+}
+.tresPetitTexte {
+    font-size : 60%;
+    font-style: italic ;
+}
+
+#fond {
+    background:url('resources/header.jpg') no-repeat top left;
+    position:relative;
+    width:1330px;
+    height:800px;
+    margin-left: 50px;
+    z-index:1;
+    }
+    
+#contenu {
+    position:relative;
+    top:0;
+    left:0;
+    width: 1330px;
+    opacity:1;
+    font-size:300% ;
+    font-style : italic;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+    }
+/*------------------------------------------les RANGE ------*/
+.quatreRange{
+    display: flex ;
+    flex-direction: row;
+    width: 300px;
+}
+.deuxRangeHorizontaux{
+    display: flex ;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.range{
+    min-width: 200px;
+    margin-left : 150px;
+}
+/*------------------------------------------les boutons ------*/
+ 
+  .btnSubmit {
+      width: 40px;
+  }
+  .btnBottom {
+    display: flex ;
+    flex-direction: row ;
+    background-color:#E0E0E0;
+    border: none;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btnBottom:hover {
+    background-color: #555555;
+    color: white;
+  }

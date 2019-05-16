@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="la">
+<!--------- SITE DE ACCESSIBILITE ET SEMANTIQUE---------->
+
+<!--------- STRUCTURE -----------
+Header + Footer
+puis
+3 sections verticales pour les marges
+puis
+9 sections horizontales, a centre
+puis
+1 à 2 niveaux de div
+puis
+1 niveau de span pour des aménagements ponctuels
+-------------------------------->
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Accessibilité et Sémantique avec lorem ipsum">
+    <meta name="author" content="Christine Nagad">
+    <meta name="keywords" content="fusce, dapibus, commodo, lorem, ipsum, Accessibilité, sémantique">
+    <title>Accessibilité Et Sémantique</title>
+</head>
+
+<body>
+    <section class="marge">
+    </section>
+    <section class="centre">
+        <header>
+            <div id="aGauche"> <img src="resources/logo.png" alt="logo"> </div>
+            <div id=aDroite>
+                <button type="button" class="btnBottom" onclick="alert('Home')">Home</button>
+                <button type="button" class="btnBottom" onclick="alert('About')">About</button>
+                <button type="button" class="btnBottom" onclick="alert('Work')">Work</button>
+                <button type="button" class="btnBottom" onclick="alert('Services')">Services</button>
+                <button type="button" class="btnBottom" onclick="alert('Blog')">Blog</button>
+                <button type="button" class="btnBottom" onclick="alert('Contact')">Contact</button>
+            </div>
+        </header>
+
+        <section id="fond">
+            <h1 id="contenu" aria-label="Fusce Dapibus Commodo sur photo de caïrn"><br><br><br><br><br>FUSCE DAPIBUS<br>COMMODO</h1>
+        </section>
+        <section id="services">
+            <section class="texteMultiple">
+                <div class="texteEntete">
+                    <h2>SERVICES</h2>
+                    <pre>Fusce dapibus, tellus ac curcus commedo, tortor mauris condimentum
+Duis mollis, est non commodo luctus,nisi erat porttitor ligula, erget lacinia odio sem nec elit </pre>
+                </div>
+                <div class="texteCentre">
+                    <div class="petitTexte">
+                        <h3>CONSECTETUER</h3>
+                        <pre>consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua</pre>
+                    </div>
+                    <div class="petitTexte">
+                        <h3> OMNIS </h3>
+                        <pre>Sed ut perspiciatis unde
+omnis iste natus error sit
+voluptatem accusantium</pre>
+                    </div>
+                    <div class="petitTexte">
+                        <h3> DIGNISSIMOS </h3>
+                        <pre>Duis aute irure dolor in reprehenderit
+in voluptate velit esse cillum
+dolore eu fugiat nulla pariatur</pre>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="photos2">
+            <img src="resources/gallery_01.jpg" alt="Fleurs dans clairière" class="photo">
+            <img src="resources/gallery_02.jpg" alt="Mousse en sous-bois" class="photo">
+            <img src="resources/gallery_03.jpg" alt="Soleil dans les feuilles" class="photo">
+        </section>
+        <section id="news">
+            <section class="texteMultiple">
+                <div class="texteEntete">
+                    <h2>NEWS </h2>
+                    <pre>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </pre>
+                </div>
+                <div class="texteCentre">
+                    <div class="petitTexte">
+                        <h3>LOREM IPSUM</h3>
+                        <pre>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing</strong>
+sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua.
+Ut enim ad minim veniam, quis
+nostrud <em>exercitation ullamco laboris</em>.
+nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eiusmod
+fugiat nulla pariatur.</pre>
+                    </div>
+                    <div class="petitTexte">
+                        <h3> CONTUM LABORE </h3>
+                        <pre>Lorem ipsum dolor sit amet, consectetur adipiscing
+sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua.
+Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris.
+nisi ut <del>aliquip ex ea commodo</del> consequat.
+Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eiusmod
+fugiat nulla pariatur.</pre>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="photos3">
+            <img src="resources/gallery_04.jpg" alt="Au pied de mon arbre" class="photo">
+            <img src="resources/gallery_05.jpg" alt="Chemin de fer forestier" class="photo">
+            <img src="resources/gallery_06.jpg" alt="Dans la futaie" class="photo">
+        </section>
+        <section id="skills">
+            <section class="texteMultiple">
+                <div class="texteEntete">
+                    <h2>SKILLS</h2>
+                    <pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </pre>
+                </div>
+            </section>
+            <section id="quatreRange">
+                <div class="deuxRangeHorizontaux">
+                    <div class="range">
+                        <p aria-label="Lorem à 80%">LOREM</p>
+                        <div
+                            style="position: relative; bottom: 0; float: left; width: 200px; height: 12px; background-color: #202020; margin: 1px;">
+                        </div>
+                        <div
+                        style="position: relative; bottom: 0; float: left; width: 50px; height: 12px; background-color: #A0A0A0; margin: 1px;">
+                    </div>
+                    </div>
+                    <div class="range">
+                        <p aria-label="consectetuer à 60%">CONSECTETUR</p>
+                        <div
+                            style="position: relative; bottom: 0; float: left; width: 150px; height: 12px; background-color: #202020; margin: 1px;">
+                        </div>
+                        <div
+                        style="position: relative; bottom: 0; float: left; width: 100px; height: 12px; background-color: #A0A0A0; margin: 1px;">
+                    </div>
+
+                    </div>
+                </div>
+                <div class="deuxRangeHorizontaux">
+                    <div class="range">
+                        <p aria-label="Eiusmod à 60%">EIUSMOD</p>
+                        <div
+                            style="position: relative; bottom: 0; float: left; width: 150px; height: 12px; background-color: #202020; margin: 1px;">
+                        </div>
+                        <div
+                        style="position: relative; bottom: 0; float: left; width: 100px; height: 12px; background-color: #A0A0A0; margin: 1px;">
+                    </div>
+                    </div>
+                    <div class="range">
+                        <p aria-label="Labore à 80%">LABORE</p>
+                        <div
+                            style="position: relative; bottom: 0; float: left; width: 200px; height: 12px; background-color: #202020; margin: 1px;">
+                        </div>
+                        <div
+                        style="position: relative; bottom: 0; float: left; width: 50px; height: 12px; background-color: #A0A0A0; margin: 1px;">
+                    </div>
+ 
+                        <p> </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="photos4">
+            <img src="resources/gallery_07.jpg" alt="Ruisseau" class="photo">
+            <img src="resources/gallery_08.jpg" alt="Sous la futaie" class="photo">
+            <img src="resources/gallery_09.jpg" alt="Buissons" class="photo">
+        </section>
+        <section id="pinterest">
+            <div class="texteEntete">
+                <pre>Fusce dapibus
+Duis mollis </pre>
+                <p class="tresPetitTexte">CHANEL IMAN, <a href="https://www.pinterest.fr/">PINTEREST</a></p>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="texteEntete">
+                <h2>CONTACT </h2>
+            </div>
+            <div id="contactCenter">
+                <div id="saisies">
+                    <div class="libele">
+                        <p class="tresPetitTexte">
+                            Your Name :
+                        </p>
+                        <input type="text" class="champ" id="YName">
+                    </div>
+                    <div class="libele">
+                        <p class="tresPetitTexte">
+                            Your Email :
+                        </p>
+                        <input type="email" class="champ" id="YEmail">
+                    </div>
+                    <div class="tresPetitTexte">
+                        <p>
+                            Your Message :
+                        </p>
+                        <textarea class="champ" id="YMessage" rows=4 cols=50> </textarea>
+                    </div>
+                    <input type="submit" value="send">
+                </div>
+                <div id="adresse">
+                    <p></p>
+                    <address>John Doe, Studio director </address>
+                    <address>123 Alain Street</address>
+                    <address>Telle ville A5 98765 </address>
+                    <p></p>
+                    <address>Tel. (33) 662 684 925 from 9am to 9pm </address>
+                    <address>Email: nagadchr@yahoo.com </address>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p> ©2018 Lorem ipsum All rights reserved </p>
+            <button type="button" class="btnBottom" onclick="alert('Terms of use')">Terms of use</button>
+            <button type="button" class="btnBottom" onclick="alert('Site map')">Site map</button>
+        </footer>
+    </section>
+    <section class="marge">
+
+    </section>
+</body>
+
+</html>

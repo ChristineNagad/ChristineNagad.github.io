@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- - - - - - - SITE DE MAQUETTE ANIMATION - - - - -->
+
+<!-- - - - - - - STRUCTURE - - - - - - - -
+Header + Footer
+puis
+3 sections horizontales
+puis
+3 sections verticales
+puis
+1 à 2 niveaux de div
+puis
+1 niveau de span pour des aménagements ponctuels
+- - - - - - - - - - - - - - - - - - - - -->
+
+<head>
+    <link rel="stylesheet" type="text/css" href="animation.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Animation des éléments décoratifs d'une maquette sur les déchets">
+    <meta name="author" content="Christine Nagad">
+    <meta name="keywords" content="Animation, maquette, déchets">
+    <title>Animation</title>
+</head>
+
+<body>
+    <header>
+        <div id="headerRight">
+            <img src="batman.png" alt="batman logo" id="batman">
+            <pre>    ENSEMBLE, PRESERVONS LA NATURE</pre>
+        </div>
+        <div id="headerLeft">
+            <button type="button" class="btnHigh" onclick="alert('Plastique')">Plastique</button>
+            <button type="button" class="btnHigh" onclick="alert('Verre')">Verre</button>
+            <button type="button" class="btnHigh" onclick="alert('Metal')">Metal</button>
+            <button type="button" class="btnHigh" onclick="alert('Carton')">Carton</button>
+            <button type="button" class="btnHigh" onclick="alert('Papier')">Papier</button>
+        </div>
+    </header>
+    <section id="all">
+        <section id="entete">
+            <div id="enteteGauche">
+                <h1>
+                    Des centaines de milliers d'objets<br>retrouvés sur les plages chaque année.
+                </h1>
+            </div>
+            <div id="enteteDroite">
+                <div id="enteteDroiteHaute">
+                    <button type="button" class="btnChiffre">4</button>
+                    <button type="button" class="btnChiffre">2</button>
+                    <button type="button" class="btnChiffre">8</button>
+                    <button type="button" class="btnChiffre">1</button>
+                    <button type="button" class="btnChiffre">0</button>
+                    <button type="button" class="btnChiffre">5</button>
+                </div>
+                <div>
+                    <p>tonnes de détritus en 2013</p>
+                </div>
+            </div>
+        </section>
+        <section id="carousel">
+            <div id="carousel1">
+                <div id="carousel1Image">
+                    <img id="sac1" src="plasticbag.png" alt="sac plastique">
+                </div>
+                <div id="carousel1Texte">
+                    <p>13.497 SACS PLASTIQUES</p>
+                </div>
+            </div>
+            <div id="carousel2">
+                <div id="carousel2Image">
+                        <img id="megot1" src="megot.png" alt="megot">
+                </div>
+                <div id="carousel2Texte">
+                    <p>154.570 MEGOTS</p>
+                </div>
+            </div>
+
+            <div id="carousel3">
+                <div id="carousel3Image">
+                        <img id="cotontige1" src="cotontige.png" alt="coton-tige">
+                </div>
+                <div id="carousel3Texte">
+                    <p>8.151 COTONS-TIGES</p>
+                </div>
+            </div>
+            <div id="carousel4">
+                <div id="carousel4Image">
+                        <img id="bouteille1" src="bottle.png" alt="bouteille">
+                </div>
+                <div id="carousel4Texte">
+                    <p>54651 BOUTEILLES</p>
+                </div>
+            </div>
+            <div id="carousel5">
+                <div id="carousel5Image">
+                        <img id="parasol1" src="parasol.png" alt="parasol">
+                </div>
+                <div id="carousel5Texte">
+                    <p>45 PARASOLS</p>
+                </div>
+            </div>
+        </section>
+        <section id="centre">
+            <div id="centreGauche">
+                <div id="texteHaut">
+
+                    <h2>DERNIÈRES NEWS </h2>
+                    <h3>Déchets aquatiques </h3>
+                    <p>Le <strong>Great Pacific Garbage Patch</strong> est une nappe de détritus dérivant dans
+                        l'océan Pacifique et se propageant depuis les années 1950. Elle est le fruit des courants
+                        tourbillonants qui attirent ainsi des ordures de tous les océans du monde et flotte entre la
+                        Californie et Hawaii. Selon les estimations de la Commission côtière de l'Etat de Californie,
+                        cette immense poubelle flottante atteindrait aujourd'hui 3,5 millions de tonnes pour une
+                        superficie de 3,43 millions de km2, son le tiers de la superficie de l'Europe Au total, plus
+                        de 267 espèces marines seraient affectées par cet amas colossal de déchets.
+                    </p>
+                </div>
+                <div id="petitTexte">
+                    <div id="petitTexte1">
+                        <p>
+                            Qui sont les pollueurs des plages ? Bien sûr, tout de suite, nous pensons aux navires de
+                            commerce, ou aux mauvais pêcheurs non respectueux de l'élément qui les fait vivre,
+                            responsables des déversements d'hydrocarbures à cause des accidents en mer.
+                        </p>
+                    </div>
+                    <div id="petitTexte2">
+                        <p>
+                            Cependant nous pensons moins souvent aux consommateurs Français qui produisent par an
+                            environ 400kg de déchets chacun et qui utilisent des milliards de sacs plastiques. Par
+                            conséquent nous savons que l'homme est le seul pollueur des plages.
+                        </p>
+                    </div>
+                    <div id="petitTexte3">
+                        <p>
+                            Aujourd'hui, les communes, les mairies ainsi que le gouvernement mettent en place des
+                            systèmes pour diminuer la pollution des plages. Est-ce vraiment bénéfique, car nous
+                            continuons à produire des déchets en grande quantité...
+                        </p>
+                    </div>
+                </div>
+                <div class="signature">
+                    <img  src= "clock.jpg" class="horloge" alt="horloge">
+                    <pre>February 12, 2008 by Flash Gordon</pre>
+                </div>
+                <div id="texteBas">
+                    <h3>Une mer de plastique </h3>
+                    <p> En 2014, l'ONG a insisté sur la participation citoyenne en incitant les organisateurs à remplir
+                        en ligne une fiche bilan fort détaillée, demandant notamment les proportions des différentes
+                        matières collectées, la présence de déchets en nombre important, ou des informations sur la
+                        gestion effectuée sur la zone de l'opération "Cette fiche de quantification est élaborée pour
+                        offrir le compromis entre rigueur scientifique et possibilité de participation du citoyen.
+                        Surfinder collectera et compilera ensuite ces informations, en vue d'une retransmission et
+                        collaboration auprès des partenaires habituels, tels que le programme OSPAR" détaille l'ONG qui
+                        affine ainsi encore plus la qualité son travail - à l'image de ce qu'elle a pu mener suite à la
+                        découverte, en 2009, de nombreux médias filtrants encore inconnus sur les côtes.
+                        De la sorte, ces opérations alertent tout autant que les observations menées dans le cadre de
+                        l'expédition <strong>7ième Continent</strong> dont la dernière mission a observé de plus en plus
+                        de macro déchets à rapproche de la zone de concentration des courants seaux, flacons, bottes,
+                        casques de chantiers, plastiques divers.
+                    </p>
+                </div>
+                <div class="signature">
+                    <img src= "clock.jpg" class="horloge" alt="horloge">
+                    <pre>December 4, 1954 by Albus Dumbledore</pre>
+                </div>
+            </div>
+            <div id="centreDroit">
+                <div id="poids">
+                    <p>POIDS DES DECHETS</p>
+                    <table>
+                            <tr id="sac3">
+                                <th>Sacs plastiques</th>
+                                <td id="sac2">1,35 tonnes</td>
+                            </tr>
+                            <tr id="megot3">
+                                <th>Mégots</th>
+                                <td id="megot2">15,5 tonnes</td>
+                            </tr>
+                            <tr id="cotontige3">
+                                <th>Cotons-tiges</th>
+                                <td id="cotontige2">0,5 tonnes</td>
+                            </tr>
+                            <tr id="bouteille3">
+                                <th>Bouteilles</th>
+                                <td id="bouteille2">5,5 tonnes</td>
+                            </tr>
+                            <tr id="parasol3">
+                                <th>Parasols</th>
+                                <td id="parasol2">0,2 tonnes</td>
+                            </tr>
+                    </table>
+                </div>
+                <div id="newsletter">
+                    <p>NEWSLETTER</p>
+                    Votre prénom
+                    <input id="prenom" type="text" name="prenom">
+                    Votre adresse-mail
+                    <input id="email" type="email" name="adresseMail">
+                    <input id="submit" type="submit" value="Souscrire">
+                </div>
+                <div id="bilan">
+                    <p>
+                        "Mais ce nest pas ce qui était visible à l'œil nu qui était le plus impressionnant à l'intérieur
+                        et autour de la zone du gyre. C'est ce que nous avons trouvé juste sous la surface, visible
+                        seulement si on s'approche de près: des particules de plastique sous forme de paillettes très
+                        petites en quantité très importante. Nous naviguions sur un ocean plastique invisible à l'œil nu
+                        ! Ces paillettes sont les résultats du travail de la mer et du soleil sur les macro plastiques
+                        qui finissent en mer" peut-on lire dans, le <strong>dernier bilan</strong> mis en ligne…
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div>
+            <pre>Mangez 5 fruits et légumes par jour si vous voulez mais ne jetez pas vos détritus à la mer.
+N'importe qui peut faire n'importe quoi, ou pas. ©2018 Copyright</pre>
+        </div>
+        <div id="troisLogos">
+            <img src="recyclage1.jpg" alt="premier logo du recyclage" id="premierlogo">
+            <img src="recyclage2.jpg" alt="deuxieme logo du recyclage" id="secondlogo">
+            <img src="recyclage3.jpg" alt="troisieme logo du recyclage" id="troisiemelogo">
+        </div>
+    </footer>
+</body>
+
+</html>

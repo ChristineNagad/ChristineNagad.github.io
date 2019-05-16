@@ -1,0 +1,258 @@
+/*- - - - - styles of ChrNagad.html - Chr. Nagad - created on may 13th 2019 */
+body {
+  color: whitesmoke;
+  background-color: rgb(25, 8, 35);
+}
+/*---------------- boutons de bas de page ---------------*/
+
+#bouton1Div {   /*--- bouton page 1 ---*/
+  margin-left: 24.25rem;
+  margin-bottom: 2rem;
+  margin-top: 6.25rem;
+}
+#bouton2Bas {
+  margin-left: 85rem;
+  margin-top: 1rem;
+}
+#bouton3Bas {
+  margin-left: 85rem;
+  margin-top: 2rem;
+}
+#troisBoutons {
+  display: flex;
+  margin-bottom: 3rem;
+}
+#telechargerCV {
+  margin: 0rem 0rem 0rem 11.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-width: 0.5px;
+  border-color: whitesmoke;
+  background-color: rgb(25, 8, 35);
+  color: whitesmoke;
+}
+#bouton4Haut {
+  margin-left: 54rem;
+  margin-right: 0rem;
+  margin-top: 0rem;
+}
+#envoyer {
+  margin-left: 11.5rem;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  border-radius: 1rem;
+  border-width: 0.5px;
+  color: #0080FF;
+  border-color: #0080FF;
+  background-color: rgb(25, 8, 35);
+}
+#bouton1Bas, #bouton2Bas, #bouton3Bas, #bouton2Haut, #bouton3Haut, #bouton4Haut {
+  padding: 1rem;
+  border-radius: 1rem;
+  border-width: 0.5px;
+  border-color: whitesmoke;
+  background-color: rgb(25, 8, 35);
+  color: whitesmoke;
+}
+
+/*---------------- page 1 ---------------*/
+#hautPage1 {
+  display: flex;
+  flex-direction: row;
+  background-image: url("./sources/PortFolio-Image.jpg");
+  background-size: 92%;
+  background-repeat:no-repeat;
+}
+.coord {
+  display: flex;
+  flex-direction: column;
+  min-width: 60%;
+  margin: 0rem;
+}
+.titre h2 {
+  font-size: 1.5rem;
+  padding: 14rem 0rem 0rem 0rem;
+}
+h1 {
+  font-size: 3rem;
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem;
+}
+#p1 {
+  color: #0080FF;
+  font-size: 1.25rem;
+  padding: 1rem 0rem 5rem 0rem;
+}
+.titre {
+  display : flex;
+  flex-direction: column;
+}
+/*---------------- page  2---------------*/
+#hautPage2 {
+      width: 92% ;
+}
+#formation {
+    font-size: 2rem;
+    padding: 20rem 0rem 0rem 42.5rem ;
+    margin: 0rem;
+  }
+  #certif {
+    font-size: 1.5rem;
+    color: #0080FF;
+    margin: 0rem;
+    padding: 0rem 0rem 3rem 42.5rem ;
+  }
+#html {
+  position: absolute;
+  top: 67rem;
+  left: 25rem;
+  width: 5rem;
+}
+#css {
+  position: absolute;
+  top: 61rem;
+  left: 30rem;
+  width: 5rem;
+}
+#js {
+  position: absolute;
+  top: 56rem;
+  left: 35rem;
+  width: 5rem;
+}
+#angular {
+  position: absolute;
+  top: 54rem;
+  left: 40rem;
+  width: 5rem;
+}
+#materialize {
+  position: absolute;
+  top: 54rem;
+  left: 46rem;
+  width: 8rem;
+}
+#react {
+  position: absolute;
+  top: 58rem;
+  left: 53rem;
+  width: 5rem;
+}
+#gsap {
+  position: absolute;
+  top: 66.25rem;
+  left: 34rem;
+  width: 7rem;
+}
+#agile {
+  position: absolute;
+  top: 60rem;
+  left: 56rem;
+  width: 10rem;
+}
+#blocDe8 {
+  display: flex;
+  flex-direction: row;
+}
+.blocDe2 {
+  display: flex;
+  flex-direction: column;
+}
+.enTete {
+  padding: 0.25rem 0rem 0.25rem 0rem;
+  font-size: 1.5rem;
+}
+.site {
+  width: 100%;
+}
+/*---------------- page  3---------------*/
+.bleu {
+  color: #0080FF;
+}
+#autresMetiers {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+#metier1 {
+  width: 60%;
+  padding-left: 6.5%;
+}
+#metier1, #metier2 {
+  display: flex;
+  flex-direction: column;
+}
+.h3_1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  margin-bottom: 0rem;
+}
+.p3 {
+  font-size: 1.5rem;
+  color: #0080FF;
+  margin: 0.5rem 0rem 4rem 0rem;
+}
+button img {
+  max-width: 100%;
+  width: 37rem;
+}
+.collapsible-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.collapsible-body {
+  font-size:  1rem;
+  padding: 0.5rem 0rem 0.5rem 8rem;
+  margin: 0rem;
+}
+/*---------------- page  4---------------*/
+#hautPage4 {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 0rem 0rem 0rem;
+  padding: 6px;
+}
+#partieGauche {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 4rem 0rem 0rem 0rem;
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+}
+#visageSeul {
+  width: 40%;
+  margin-top: 15%;
+}
+#partieGauche h2 {
+  font-size: 1.5rem;
+}
+#partieGauche p {
+  margin: 0px;
+  padding: 0px;
+}
+#linkedin, #viadeo {
+  color: #0080FF;
+}
+#partieDroite {
+  display: flex;
+  flex-direction: column;
+  width: 66%;
+  margin: 2rem 6.5rem 0rem 0rem;
+  padding: 0px;
+}
+#partieDroite h2 {
+  font-size: 2.5rem;
+  padding-top: 3rem;
+}
+#parlons {
+  margin-bottom: 4rem;
+}
+.saisie {
+  color: whitesmoke;
+}
+#story {
+  height: 6rem;
+}
