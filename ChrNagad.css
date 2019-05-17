@@ -1,11 +1,14 @@
 /*- - - - - styles of ChrNagad.html - Chr. Nagad - created on may 13th 2019 */
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: whitesmoke;
   background-color: rgb(25, 8, 35);
 }
 /*---------------- boutons de bas de page ---------------*/
 
-#bouton1Div {   /*--- bouton page 1 ---*/
+#bouton1Bas {   /*--- bouton page 1 ---*/
   margin-left: 24.25rem;
   margin-bottom: 2rem;
   margin-top: 6.25rem;
@@ -62,7 +65,7 @@ body {
   background-size: 92%;
   background-repeat:no-repeat;
 }
-.coord {
+.visage {
   display: flex;
   flex-direction: column;
   min-width: 60%;
@@ -107,47 +110,80 @@ h1 {
   left: 25rem;
   width: 5rem;
 }
+#html:hover {
+  transform: rotateY(180deg);
+}
 #css {
   position: absolute;
   top: 61rem;
   left: 30rem;
   width: 5rem;
+  transition: width 2s;
+}
+#css:hover {
+  width: 100px;
 }
 #js {
   position: absolute;
   top: 56rem;
   left: 35rem;
   width: 5rem;
+  transition: all .2s ease-in-out;
+}
+#js:hover {
+  transform: translateY(-3rem);
 }
 #angular {
   position: absolute;
   top: 54rem;
   left: 40rem;
   width: 5rem;
+  transition: all .4s ease-in-out;
+}
+#angular:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
 }
 #materialize {
   position: absolute;
   top: 54rem;
   left: 46rem;
   width: 8rem;
+  transition: all .2s ease-in-out;
+}
+#materialize:hover {
+  transform: skew(20deg, 20deg);
 }
 #react {
   position: absolute;
   top: 58rem;
   left: 53rem;
   width: 5rem;
+  transition: all .3s ease-in-out;
+}
+#react:hover {
+  transform: rotateY(90deg);
+  transform-style: preserve-3d;
 }
 #gsap {
   position: absolute;
   top: 66.25rem;
   left: 34rem;
   width: 7rem;
+  transition: all .2s ease-in-out;
+}
+#gsap:hover {
+  transform: translateX(1.5rem);
 }
 #agile {
   position: absolute;
   top: 60rem;
   left: 56rem;
   width: 10rem;
+  transition: all .6s ease-in-out;
+}
+#agile:hover {
+  transform: rotate(360deg);
 }
 #blocDe8 {
   display: flex;
@@ -224,7 +260,7 @@ button img {
 }
 #visageSeul {
   width: 40%;
-  margin-top: 15%;
+  margin-top: 25%;
 }
 #partieGauche h2 {
   font-size: 1.5rem;
