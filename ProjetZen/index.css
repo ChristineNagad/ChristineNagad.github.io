@@ -1,13 +1,4 @@
 /*-------- styles du fichier index.html - Chr. Nagad - créé le 1er avril 2019 */
-/*
-@font-face {
-    font-family: "Helvetica";
-    src:   url("/fonts/Helvetica.ttf") format("ttf"),
-           url("/fonts/Helvetica-BoldOblique.ttf") format("ttf"),
-           url("/fonts/helvetica-compressed-5871d14b6903a.otf") format("otf"),
-           url("/fonts/helvetica-light-587ebe5a59211.ttf") format("ttf"),
-           url("/fonts/Helvetica-Oblique.ttf") format("ttf"),
-           url("/fonts/helvetica-rounded-bold-5871d05ead8de.otf") format("otf");
 }
 /*------------------------------------------------ Les containers -------*/
 body {
@@ -209,7 +200,7 @@ h3 {
 }
 
 #fond {
-    background:url('resources/header.jpg') no-repeat top left;
+    background:url('./Resources/header.jpg') no-repeat top left;
     position:relative;
     width:1330px;
     height:800px;
