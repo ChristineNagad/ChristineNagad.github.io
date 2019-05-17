@@ -8,14 +8,14 @@ body {
    background-color : #f0f0FF;
 }
 h1 {
-    font-size: 400%;
+    font-size: 200%;
     color: #303080;
 }
 button {
-    font-size: 400%;
+    font-size: 200%;
     margin: 1em;
     color: whitesmoke;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #303080;
 }
 .face, .eyes, .mouth {
@@ -29,6 +29,7 @@ button {
 }
 .funnel {
     max-width: 42%;
+    margin-top: 6%;
 }
 .vertical{
     display: flex;
@@ -47,16 +48,16 @@ button {
 }
 .belt1 {
     position: absolute;
-    left: 710px;
-    top: 1195px;
+    left: 355px;
+    top: 597px;
 }
 .belt2 {
     position: absolute;
-    left: 1710px;
-    top: 1195px;
+    left: 855px;
+    top: 597px;
 }
 .belt3 {
     position: absolute;
-    left: -290px;
-    top: 1195px;
+    left: -147px;
+    top: 597px;
 }
