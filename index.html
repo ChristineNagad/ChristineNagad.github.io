@@ -9,6 +9,18 @@ puis
 - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 <head>
+    <!-- Google Tag Manager -->
+    <script> var dataLayer =[{}] ; </script>
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MS6MP7S');</script>
+    <!-- End Google Tag Manager -->
+    
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio sous Github">
     <meta name="author" content="Christine Nagad">
@@ -25,6 +37,10 @@ puis
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS6MP7S" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- - - - - - - - - - 1e page - - - - - - - - -->
     <section id="hautPage1" title="organisée, consciencieuse, sens du service">
         <div class="visage">
@@ -56,25 +72,28 @@ puis
     </section>
     <section id="blocDe8">
         <div class="blocDe2">
-            <a href="ProjetPlage/animation.html"> <img class="site" src="./sources/Plage.png" alt="Plage avec transat"/></a>
+            <a href="ProjetPlage/animation.html"> <img class="site" src="./sources/Plage.png"
+                    alt="Plage avec transat" /></a>
             <p class="sousTitre">Animations</p>
         </div>
         <div class="blocDe2">
-            <a href="ProjetZen/index.html"><img class="site" src="./sources/zen.png" alt="Jardin japonnais"/></a>
+            <a href="ProjetZen/index.html"><img class="site" src="./sources/zen.png" alt="Jardin japonnais" /></a>
             <p class="sousTitre">Accessibilité</p>
         </div>
         <div class="blocDe2">
-            <a href="ProjetEmoji/gsap.html"><img class="site" src="./sources/Emoji-factory.png" alt="Usine d'emoji"/></a>
+            <a href="ProjetEmoji/gsap.html"><img class="site" src="./sources/Emoji-factory.png"
+                    alt="Usine d'emoji" /></a>
             <p class="sousTitre">GSAP</p>
         </div>
         <div class="blocDe2">
-            <a href="ProjetLicorne/licorne.html"><img class="site" src="./sources/Licorne.png" alt="Licorne"/></a>
+            <a href="ProjetLicorne/licorne.html"><img class="site" src="./sources/Licorne.png" alt="Licorne" /></a>
             <p class="sousTitre">Materialize</p>
         </div>
     </section>
-    <button id="bouton2Bas" onclick="scroll2Bas()">Suite</button>
-    <button id="bouton2Haut" onclick="scroll2Haut()">Retour</button>
-
+    <section class="boutonsBas">
+        <button id="bouton2Bas" onclick="scroll2Bas()">Suite</button>
+        <button id="bouton2Haut" onclick="scroll2Haut()">Retour</button>
+    </section>
     <!-- - - - - - - - - - 3e page - - - - - - - - -->
     <section id="hautPage3">
         <div id="autresMetiers">
@@ -101,14 +120,11 @@ puis
                         <strong class="bleu">CARREFOUR</strong> : Service Manager (11 ans), 37 applications pour 27
                         pays.<br>
                         <strong class="bleu">ORANGE</strong> : maître d'ouvrage ; conçoit le contrat d'un centre
-                        d'appels
-                        international.<br>
+                        d'appels international.<br>
                         <strong class="bleu">RATP</strong> : réorganise la maintenance d'un site industriel de
-                        rénovation de
-                        bus.<br>
+                        rénovation de bus.<br>
                         <strong class="bleu">DGA CENTRE D'ESSAIS EN VOL</strong> : négocie et élabore les spécifications
-                        d'un
-                        équipement militaire embarqué.</p>
+                        d'un équipement militaire embarqué.</p>
                 </div>
             </li>
             <li>
@@ -142,8 +158,7 @@ puis
                         <strong class="bleu">MATRA COMMUNICATION</strong> : ingénieur qualité sur un projet de
                         téléphonie. <br>
                         <strong class="bleu">EADS (AEROSPATIALE)</strong> : ingénieur qualité et test en recherche
-                        mathématique (Confidentiel
-                        Défense)<br>
+                        mathématique (Confidentiel Défense)<br>
                         <strong class="bleu">THALES</strong> : ingénieur qualité pour un logiciel embarqué (Confidentiel
                         Défense).<br>
                         <strong class="bleu">SNCF</strong> : auditeur puis ingénieur qualité de 4 projets logiciels
@@ -160,8 +175,7 @@ puis
                 <div class="collapsible-body">
                     <p>
                         <strong class="bleu">ELF CONGO (CORAF)</strong> : chef de projet du développement de la
-                        supervision
-                        d'un site pétrolier.<br>
+                        supervision d'un site pétrolier.<br>
                         <strong class="bleu">SOLLAC SAINTE AGATHE</strong> : développeuse de la supervision d'un
                         haut-fourneau.<br>
                         <strong class="bleu">ALSTOM</strong> : ingénieur qualité logiciel d'un projet logiciel en
@@ -172,8 +186,10 @@ puis
             </li>
         </ul>
     </section>
-    <button id="bouton3Bas" onclick="scroll3Bas()">Suite</button>
-    <button id="bouton3Haut" onclick="scroll3Haut()">Retour</button>
+    <section class="boutonsBas">
+        <button id="bouton3Bas" onclick="scroll3Bas()">Suite</button>
+        <button id="bouton3Haut" onclick="scroll3Haut()">Retour</button>
+    </section>
 
     <!-- - - - - - - - - - 4e page - - - - - - - - -->
     <section id="hautPage4">
@@ -188,10 +204,10 @@ puis
         </section>
         <section id="partieDroite">
             <div>
-                <h2 id="parlons">Parlons ensemble de vos attentes</h2>
+                <h2 id="parlons">Un contact ... des projets !</h2>
                 <form id="formulaire" action="https://formspree.io/nagadchr@yahoo.com" method="POST">
                     Vos nom(s) et prénom(s): <input type="text" name="nom" class="saisie"><br>
-                    Votre société et votre fonction : <input type="text" name="societe" class="saisie"><br>
+                    Votre société : <input type="text" name="societe" class="saisie"><br>
                     Votre numéro de téléphone: <input type="text" name="telephone" class="saisie"><br>
                     Votre adresse mail : <input type="email" name="email" class="saisie"><br>
                     Votre message : <textarea id="story" name="story" rows="5" cols="33" class="saisie"></textarea><br>
