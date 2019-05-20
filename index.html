@@ -213,15 +213,6 @@ puis
                     Votre message : <textarea id="story" name="story" rows="5" cols="33" class="saisie"></textarea><br>
                     <a href="mailto:nagadchr@yahoo.com&subject=Portfolio">Envoyer l'e-mail</a>
                 </form>
-                <script>
-                // quand le formulaire est envoyé
-                dataLayer.push({
-                    'event': 'santianoEvent',
-                    'eventCategory': 'Utilisateur',
-                    'eventLabel': 'Message envoyé',
-                    'eventValue': '1'
-                });
-                </script>
             </div>
         </section>
     </section>
@@ -232,7 +223,16 @@ puis
         <input id="envoyer" class="material-icons" type="submit" form="formulaire" value="send">
         <button id="bouton4Haut" onclick="scroll4Haut()">Retour</button>
     </section>
-
+    <script>
+            // quand le formulaire est envoyé, Google Analytics compte les événements
+            dataLayer.push({
+                'event': 'santianoEvent',
+                'eventCategory': 'Utilisateur',
+                'eventAction': "Formulaire de contact",
+                'eventLabel': 'Message envoyé',
+                'eventValue': '1'
+            });
+            </script>
 
     <!-- - - - - - JavaScript at end of body for optimized loading - - - - - -->
     <script type="text/javascript" src="./materialize/materialize.min.js"></script>
