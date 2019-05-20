@@ -221,18 +221,9 @@ puis
             <button id="telechargerCV" type="submit" value="Send">Télécharger CV</button>
         </form>
         <input id="envoyer" class="material-icons" type="submit" form="formulaire" value="send">
-        <button id="bouton4Haut" onclick="scroll4Haut()" onsubmit="dataLayer.push()" >Retour</button>
+        <button id="bouton4Haut" onclick="scroll4Haut()" onsubmit="dataLayer.push({'event': 'santianoEvent','eventCategory': 'Utilisateur','eventAction':'Formulaire de contact','eventLabel': 'Message envoyé','eventValue': '1'})" >Retour</button>
     </section>
-    <script>
-        // Google Analytics compte les événements
-        dataLayer.push({
-            'event': 'santianoEvent',
-            'eventCategory': 'Utilisateur',
-            'eventAction': "Formulaire de contact",
-            'eventLabel': 'Message envoyé',
-            'eventValue': '1'
-        });
-    </script>
+   
 
     <!-- - - - - - JavaScript at end of body for optimized loading - - - - - -->
     <script type="text/javascript" src="./materialize/materialize.min.js"></script>
