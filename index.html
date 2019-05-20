@@ -20,7 +20,7 @@ puis
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-MS6MP7S');</script>
     <!-- End Google Tag Manager -->
-    
+
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio sous Github">
     <meta name="author" content="Christine Nagad">
@@ -213,6 +213,15 @@ puis
                     Votre message : <textarea id="story" name="story" rows="5" cols="33" class="saisie"></textarea><br>
                     <a href="mailto:nagadchr@yahoo.com&subject=Portfolio">Envoyer l'e-mail</a>
                 </form>
+                <script>
+                // quand le formulaire est envoyé
+                dataLayer.push({
+                    'event': 'santianoEvent',
+                    'eventCategory': 'Utilisateur',
+                    'eventLabel': 'Message envoyé',
+                    'eventValue': '1'
+                });
+                </script>
             </div>
         </section>
     </section>
