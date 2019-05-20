@@ -10,14 +10,14 @@ puis
 
 <head>
     <!-- Google Tag Manager -->
-    <script> var dataLayer =[{}] ; </script>
+    <script> var dataLayer = [{}]; </script>
     <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-MS6MP7S');</script>
     <!-- End Google Tag Manager -->
 
@@ -221,18 +221,18 @@ puis
             <button id="telechargerCV" type="submit" value="Send">Télécharger CV</button>
         </form>
         <input id="envoyer" class="material-icons" type="submit" form="formulaire" value="send">
-        <button id="bouton4Haut" onclick="scroll4Haut()">Retour</button>
+        <button id="bouton4Haut" onclick="scroll4Haut()" onsubmit="dataLayer.push()" >Retour</button>
     </section>
     <script>
-            // quand le formulaire est envoyé, Google Analytics compte les événements
-            dataLayer.push({
-                'event': 'santianoEvent',
-                'eventCategory': 'Utilisateur',
-                'eventAction': "Formulaire de contact",
-                'eventLabel': 'Message envoyé',
-                'eventValue': '1'
-            });
-            </script>
+        // Google Analytics compte les événements
+        dataLayer.push({
+            'event': 'santianoEvent',
+            'eventCategory': 'Utilisateur',
+            'eventAction': "Formulaire de contact",
+            'eventLabel': 'Message envoyé',
+            'eventValue': '1'
+        });
+    </script>
 
     <!-- - - - - - JavaScript at end of body for optimized loading - - - - - -->
     <script type="text/javascript" src="./materialize/materialize.min.js"></script>
