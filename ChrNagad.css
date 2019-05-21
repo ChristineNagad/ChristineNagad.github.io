@@ -24,7 +24,6 @@ body {
 }
 #bouton3Bas {
   margin-left: 85rem;
-  margin-top: 2rem;
 }
 #troisBoutons {
   display: flex;
@@ -55,7 +54,6 @@ body {
 }
 #bouton1Bas, #bouton2Bas, #bouton2Haut, #bouton3Bas, #bouton3Haut, #bouton4Haut {
   padding: 1rem;
-  margin-top: 1rem;
   border-radius: 1rem;
   border-width: 0.5px;
   border-color: whitesmoke;
@@ -64,6 +62,12 @@ body {
 }
 #bouton1Bas {
   margin-top: 6.25rem;
+}
+#bouton2Bas, #bouton2Haut {
+  margin-top: 1rem;
+}
+#bouton3Bas, #bouton3Haut {
+  margin-top: 2rem;
 }
 #bouton4Haut {
   margin-top: 0rem;
