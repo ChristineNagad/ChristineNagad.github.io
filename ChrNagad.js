@@ -3,6 +3,7 @@
   //--------------------------- références professionnelles
   M.AutoInit();
   document.addEventListener('DOMContentLoaded', function() {
+    var options;
     var elems = document.querySelectorAll('.collapsible');
     var instances = M.Collapsible.init(elems, options);
   });

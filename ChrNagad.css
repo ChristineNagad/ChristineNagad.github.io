@@ -9,6 +9,10 @@ body {
 }
 /*---------------- boutons de bas de page ---------------*/
 
+.boutonsBas {
+  display : flex;
+  flex-direction: row;
+}
 #bouton1Bas {   /*--- bouton page 1 ---*/
   margin-left: 24.25rem;
   margin-bottom: 2rem;
@@ -42,22 +46,63 @@ body {
 }
 #envoyer {
   margin-left: 11.5rem;
-  padding: 0.75rem 1rem 0.75rem 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 1rem;
   border-width: 0.5px;
   color: #0080FF;
   border-color: #0080FF;
   background-color: rgb(25, 8, 35);
 }
-#bouton1Bas, #bouton2Bas, #bouton3Bas, #bouton2Haut, #bouton3Haut, #bouton4Haut {
+#bouton1Bas, #bouton2Bas, #bouton2Haut, #bouton3Bas, #bouton3Haut, #bouton4Haut {
   padding: 1rem;
+  margin-top: 1rem;
   border-radius: 1rem;
   border-width: 0.5px;
   border-color: whitesmoke;
   background-color: rgb(25, 8, 35);
   color: whitesmoke;
 }
+#bouton1Bas {
+  margin-top: 6.25rem;
+}
+#bouton4Haut {
+  margin-top: 0rem;
+}
 
+@media screen and (max-width: 1000px) {      /* les boutons plus au centre */
+  #bouton1Bas {
+    margin-left: 0rem;
+  }
+  #bouton2Bas, #bouton3Bas {
+    margin-left: 30rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-width: 0.5px;
+    border-color: whitesmoke;
+    background-color: rgb(25, 8, 35);
+    color: whitesmoke;
+  }
+  #bouton2Haut, #bouton3Haut{
+    margin-left: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-width: 0.5px;
+    border-color: whitesmoke;
+    background-color: rgb(25, 8, 35);
+    color: whitesmoke;
+  }
+  #bouton4Haut{
+    margin-left: 12rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-width: 0.5px;
+    border-color: whitesmoke;
+    background-color: rgb(25, 8, 35);
+    color: whitesmoke;
+  }
+  #envoyer {
+    margin-left: 3.5rem;
+  }}
 /*---------------- page 1 ---------------*/
 #hautPage1 {
   display: flex;
@@ -72,14 +117,16 @@ body {
   min-width: 60%;
   margin: 0rem;
 }
-@media screen and (max-width: 700px) {      /* le texte placé sous la photo */
-  #hautPage1 {
-      flex-direction: column;
-  }}
+
 .titre h2 {
   font-size: 1.5rem;
   padding: 14rem 0rem 0rem 0rem;
 }
+
+@media screen and (max-width: 1000px) {      /* icones et textes à gauche */
+  .titre h2 {
+    padding: 2rem 0rem 0rem 0rem;
+  } }
 
 h1 {
   font-size: 3rem;
@@ -95,8 +142,10 @@ h1 {
   display : flex;
   flex-direction: column;
 }
-/*---------------- page  2---------------*/
+/*---------------------- page  2--------------------*/
 #hautPage2 {
+  display : flex;
+  flex-direction: row;
       width: 92% ;
 }
 #formation {
@@ -191,6 +240,75 @@ h1 {
 #agile:hover {
   transform: rotate(360deg);
 }
+ /*                  icones et textes à gauche et plus haut */
+@media screen and (max-width: 1000px) {     
+  #formation {
+    font-size: 2rem;
+    padding: 20rem 0rem 0rem 22.5rem ;
+    margin: 0rem;
+  }
+  #certif {
+    font-size: 1.5rem;
+    color: #0080FF;
+    margin: 0rem;
+    padding: 0rem 0rem 3rem 22.5rem ;
+  }
+  #html {
+    position: absolute;
+    top: 52rem;
+    left: 3.5rem;
+    width: 5rem;
+  }
+  #css {
+    position: absolute;
+    top: 46rem;
+    left: 9rem;
+    width: 5rem;
+    transition: width 2s;
+  }
+  #js {
+    position: absolute;
+    top: 41rem;
+    left: 14.5rem;
+    width: 5rem;
+    transition: all .2s ease-in-out;
+  }
+  #angular {
+    position: absolute;
+    top: 39rem;
+    left: 20rem;
+    width: 5rem;
+    transition: all .4s ease-in-out;
+  }
+  #materialize {
+    position: absolute;
+    top: 39rem;
+    left: 26rem;
+    width: 8rem;
+    transition: all .2s ease-in-out;
+  }
+  #react {
+    position: absolute;
+    top: 43rem;
+    left: 33rem;
+    width: 5rem;
+    transition: all .3s ease-in-out;
+  }
+  #gsap {
+    position: absolute;
+    top: 51.25rem;
+    left: 14rem;
+    width: 7rem;
+    transition: all .2s ease-in-out;
+  }
+  #agile {
+    position: absolute;
+    top: 45rem;
+    left: 36rem;
+    width: 10rem;
+    transition: all .6s ease-in-out;
+  }}
+
 #blocDe8 {
   display: flex;
   flex-direction: row;

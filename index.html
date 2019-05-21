@@ -58,17 +58,19 @@ puis
 
     <!-- - - - - - - - - - 2e page - - - - - - - - -->
     <section id="hautPage2">
-        <img id="html" src="./sources/HTML.png" alt="HTML 5">
-        <img id="css" src="./sources/CSS.png" alt="CSS 3">
-        <img id="js" src="./sources/javascript.png" alt="javascript">
-        <img id="angular" src="./sources/angular.png" alt="angular">
-        <img id="materialize" src="./sources/materialize.png" alt="Materialize">
-        <img id="react" src="./sources/react.png" alt="react">
-        <img id="gsap" src="./sources/gsap.svg" alt="GSAP">
-        <img id="agile" src="./sources/agile.png" alt="Agile Scrum">
-        <p id="formation">Formation Coding Academy by Epitech</p>
-        <p id="certif">Certification OPQUAST en cours</p>
-
+        <div id="videAGauche"></div>
+        <div id="logosOutils">
+            <img id="html" src="./sources/HTML.png" alt="HTML 5">
+            <img id="css" src="./sources/CSS.png" alt="CSS 3">
+            <img id="js" src="./sources/javascript.png" alt="javascript">
+            <img id="angular" src="./sources/angular.png" alt="angular">
+            <img id="materialize" src="./sources/materialize.png" alt="Materialize">
+            <img id="react" src="./sources/react.png" alt="react">
+            <img id="gsap" src="./sources/gsap.svg" alt="GSAP">
+            <img id="agile" src="./sources/agile.png" alt="Agile Scrum">
+            <p id="formation">Formation Coding Academy by Epitech</p>
+            <p id="certif">Certification OPQUAST en cours</p>
+        </div>
     </section>
     <section id="blocDe8">
         <div class="blocDe2">
@@ -204,7 +206,7 @@ puis
         </section>
         <section id="partieDroite">
             <div>
-                <h2 id="parlons">Un contact ... des projets !</h2>
+                <h2 id="parlons">Partagez vos idées !</h2>
                 <form id="formulaire" action="https://formspree.io/nagadchr@yahoo.com" method="POST">
                     Vos nom(s) et prénom(s): <input type="text" name="nom" class="saisie"><br>
                     Votre société : <input type="text" name="societe" class="saisie"><br>
@@ -221,9 +223,10 @@ puis
             <button id="telechargerCV" type="submit" value="Send">Télécharger CV</button>
         </form>
         <input id="envoyer" class="material-icons" type="submit" form="formulaire" value="send">
-        <button id="bouton4Haut" onclick="scroll4Haut()" onsubmit="dataLayer.push({'event': 'santianoEvent','eventCategory': 'Utilisateur','eventAction':'Formulaire de contact','eventLabel': 'Message envoyé','eventValue': '1'})" >Retour</button>
+        <button id="bouton4Haut" onclick="scroll4Haut()"
+            onsubmit="dataLayer.push({'event': 'santianoEvent','eventCategory': 'Utilisateur','eventAction':'Formulaire de contact','eventLabel': 'Message envoyé','eventValue': '1'})">Retour</button>
     </section>
-   
+
 
     <!-- - - - - - JavaScript at end of body for optimized loading - - - - - -->
     <script type="text/javascript" src="./materialize/materialize.min.js"></script>
