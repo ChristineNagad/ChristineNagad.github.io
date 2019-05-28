@@ -15,22 +15,28 @@ body {
 }
 #bouton1Bas {   /*--- bouton page 1 ---*/
   margin-left: 24.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   margin-top: 6.25rem;
 }
 #bouton2Bas {
   margin-left: 85rem;
   margin-top: 1rem;
 }
+#bouton2Haut {
+  margin-top: 1rem;  
+}
 #bouton3Bas {
   margin-left: 85rem;
+}
+#bouton3Bas, #bouton3Haut {
+  margin-top: 3.35rem;
 }
 #troisBoutons {
   display: flex;
   margin-bottom: 3rem;
 }
 #telechargerCV {
-  margin: 0rem 0rem 0rem 11.5rem;
+  margin: 0.3rem 0rem 0rem 11.5rem;
   padding: 1rem;
   border-radius: 1rem;
   border-width: 0.5px;
@@ -41,10 +47,11 @@ body {
 #bouton4Haut {
   margin-left: 54rem;
   margin-right: 0rem;
-  margin-top: 0rem;
+  margin-top: 0.3rem;
 }
 #envoyer {
   margin-left: 11.5rem;
+  margin-top: 0.3rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 1rem;
   border-width: 0.5px;
@@ -60,19 +67,6 @@ body {
   background-color: rgb(37, 18, 46);
   color: whitesmoke;
 }
-#bouton1Bas {
-  margin-top: 6.25rem;
-}
-#bouton2Bas, #bouton2Haut {
-  margin-top: 1rem;
-}
-#bouton3Bas, #bouton3Haut {
-  margin-top: 2rem;
-}
-#bouton4Haut {
-  margin-top: 0rem;
-}
-
 @media screen and (max-width: 1000px) {      /* les boutons plus au centre */
   #bouton1Bas {
     margin-left: 0rem;
@@ -104,9 +98,7 @@ body {
     background-color: rgb(37, 18, 46);
     color: whitesmoke;
   }
-  #envoyer {
-    margin-left: 3.5rem;
-  }}
+}
 /*---------------- page 1 ---------------*/
 #hautPage1 {
   display: flex;
