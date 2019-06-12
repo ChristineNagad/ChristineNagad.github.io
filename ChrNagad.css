@@ -236,6 +236,7 @@ h1 {
 #agile:hover {
   transform: rotate(360deg);
 }
+
  /*                  icones et textes à gauche et plus haut */
 @media screen and (max-width: 1000px) {     
   #formation {
@@ -324,7 +325,7 @@ h1 {
 .site {
   width: 100%;
 }
-/*---------------- page  3---------------*/
+/*------------------ page  3---------------------*/
 .bleu {
   color: #0080FF;
 }
@@ -356,6 +357,9 @@ button img {
   max-width: 100%;
   width: 37rem;
 }
+.collapsible-header img:hover {
+  transform: scale(1.5, 1.5);
+}
 .collapsible-header {
     display: flex;
     align-items: center;
@@ -366,7 +370,7 @@ button img {
   padding: 0.5rem 0rem 0.5rem 8rem;
   margin: 0rem;
 }
-/*---------------- page  4---------------*/
+/*------------------- page  4----------------------*/
 #hautPage4 {
   display: flex;
   flex-direction: row;

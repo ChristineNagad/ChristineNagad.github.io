@@ -1,0 +1,19 @@
+<div>
+	<div>Year : {{selectedyear}}</div>
+	<div style="display: block">
+		<canvas baseChart 
+			[datasets]="barChartData"
+			[labels]="barChartLabels"
+			[options]="barChartOptions"
+			[legend]="barChartLegend"
+			[chartType]="barChartType"
+			>
+		</canvas>
+	</div>
+	<select id="year" [(ngModel)]="selectedyear" (change)="loadChartBar($event)">
+      <option value="2011" selected>2011</option>
+      <option value="2012">2012</option>
+      <option value="2013">2013</option>
+      <option value="2014">2014</option>
+    </select>
+</div>
