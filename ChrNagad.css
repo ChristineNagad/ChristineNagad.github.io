@@ -21,9 +21,11 @@ body {
 #bouton2Bas {
   margin-left: 85rem;
   margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 #bouton2Haut {
-  margin-top: 1rem;  
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 #bouton3Bas {
   margin-left: 85rem;
