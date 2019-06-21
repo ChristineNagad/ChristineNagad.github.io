@@ -1,11 +1,16 @@
 /*- - - - - styles of ChrNagad.html - Chr. Nagad - created on may 13th 2019 */
 html {
   scroll-behavior: smooth;
+  height:100%;
 }
 body {
   color: whitesmoke;
   background-color: rgb(37, 18, 46);
   margin: auto;
+  height:100%;
+}
+.page {
+  height:100%;
 }
 /*---------------- boutons de bas de page ---------------*/
 
@@ -163,7 +168,7 @@ h1 {
   }
 #html {
   position: absolute;
-  top: 72rem;
+  top: 68rem;
   left: 23.5rem;
   width: 5rem;
 }
@@ -172,7 +177,7 @@ h1 {
 }
 #css {
   position: absolute;
-  top: 66rem;
+  top: 62rem;
   left: 29rem;
   width: 5rem;
   transition: width 2s;
@@ -182,7 +187,7 @@ h1 {
 }
 #js {
   position: absolute;
-  top: 61rem;
+  top: 57rem;
   left: 34.5rem;
   width: 5rem;
   transition: all .2s ease-in-out;
@@ -192,7 +197,7 @@ h1 {
 }
 #angular {
   position: absolute;
-  top: 59rem;
+  top: 55rem;
   left: 40rem;
   width: 5rem;
   transition: all .4s ease-in-out;
@@ -203,7 +208,7 @@ h1 {
 }
 #materialize {
   position: absolute;
-  top: 59rem;
+  top: 55rem;
   left: 46rem;
   width: 8rem;
   transition: all .2s ease-in-out;
@@ -213,7 +218,7 @@ h1 {
 }
 #gsap {
   position: absolute;
-  top: 71.25rem;
+  top: 67rem;
   left: 34rem;
   width: 7rem;
   transition: all .2s ease-in-out;
@@ -223,7 +228,7 @@ h1 {
 }
 #agile {
   position: absolute;
-  top: 61rem;
+  top: 57rem;
   left: 53rem;
   width: 10rem;
   transition: all .6s ease-in-out;
@@ -321,6 +326,9 @@ h1 {
   width: 100%;
 }
 /*------------------ page  3---------------------*/
+#hautPage3 {
+  display:block;
+}
 .bleu {
   color: #0080FF;
 }
